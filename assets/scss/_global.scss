@@ -1,7 +1,7 @@
 /* Global Styles */
 
 ::selection {
-    background-color: $color-1;
+    background-color: $color-4;
     color: white;
 }
 
@@ -17,7 +17,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: $color-1;
+    background-color: $color-5;
     outline: 1px solid slategrey;
     border-radius: 999px;
 }
@@ -40,9 +40,8 @@ html {
 }
 
 body {
-    font-family: 'PT Serif', serif;
+    font-family: 'Hind', serif;
     line-height: 1.6;
-    background-image: url(../img/cream_dust_@2X.png);
 }
 
 .content-wrapper {
@@ -81,33 +80,4 @@ ol {
 
 a {
     text-decoration: none;
-}
-
-/* Admin Edit Link */
-
-.edit-link {
-    display: none !important;
-}
-
-/* Cookie Notice */
-
-.cookie-notice-container {
-    background-color: $color-3;
-    #cn-notice-text {
-        font-size: 14px;
-        font-size: 1.4rem;
-    }
-}
-
-/* Sections */
-
-section,
-main {
-    padding: 120px 0;
-}
-
-main {
-    background: url(../img/body-background-shape-1.svg) no-repeat right top, url(../img/body-background-shape.svg) no-repeat left bottom;
-    background-size: 700px;
-    position: relative;
 }
