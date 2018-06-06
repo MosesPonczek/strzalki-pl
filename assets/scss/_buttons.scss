@@ -1,0 +1,17 @@
+.page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: $color-2;
+    @include radial-gradient;
+    transition: 200ms ease;
+    &:hover {
+        transform: translateY(-10px) scale(1.1);
+    }
+}

@@ -1,0 +1,113 @@
+/* Global Styles */
+
+::selection {
+    background-color: $color-1;
+    color: white;
+}
+
+/* ScrollBar */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $color-1;
+    outline: 1px solid slategrey;
+    border-radius: 999px;
+}
+
+/* Site */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    line-height: 1.6;
+    background-image: url(../img/cream_dust_@2X.png);
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    @media all and (max-width: 1170px) {
+        padding: 0 50px;
+    }
+    @media all and (max-width: 960px) {
+        padding: 0 30px;
+    }
+    @media all and (max-width: 580px) {
+        padding: 0 15px;
+    }
+}
+
+.sr-only,
+.screen-reader-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Admin Edit Link */
+
+.edit-link {
+    display: none !important;
+}
+
+/* Cookie Notice */
+
+.cookie-notice-container {
+    background-color: $color-3;
+    #cn-notice-text {
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+}
+
+/* Sections */
+
+section,
+main {
+    padding: 120px 0;
+}
+
+main {
+    background: url(../img/body-background-shape-1.svg) no-repeat right top, url(../img/body-background-shape.svg) no-repeat left bottom;
+    background-size: 700px;
+    position: relative;
+}

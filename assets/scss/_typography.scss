@@ -1,0 +1,99 @@
+h1 {
+    font-size: 48px;
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 36px;
+    line-height: 3.6rem;
+}
+
+a {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/* Site Headings */
+
+.site__heading {
+    &--title {
+        margin: 0;
+        &::before {
+            display: inline-block;
+            content: url(../img/heading-ornament.png);
+            margin-right: 12px;
+        }
+    }
+    &--description {
+        margin-top: 0;
+        font-size: 20px;
+        font-size: 2rem;
+        font-style: italic;
+    }
+}
+
+.site__heading.center-heading {
+    text-align: center;
+    margin: 0 auto;
+    &::before {
+        display: block;
+        content: url(../img/gold-ornament-heading.png);
+        margin-bottom: 36px;
+    }
+    .site__heading--title {
+        &::before {
+            display: none;
+        }
+    }
+    .site__heading--description {
+        width: calc(100% - 360px);
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .site__heading.center-heading {
+        text-align: left;
+        .site__heading--description {
+            width: 100%;
+            margin: 15px auto;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .site__heading.center-heading {
+        text-align: center;
+    }
+}
