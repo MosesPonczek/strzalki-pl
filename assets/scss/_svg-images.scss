@@ -1,24 +1,25 @@
 // Strzalki logo
 .strzalki-logo,
 .strzalki-logo-mini {
-    .red-elipse {
-        fill: $color-3;
-    }
-    .red-arrow {
-        fill: $color-3;
-    }
-    .blue-arrow {
-        fill: $color-4;
-    }
-    .gold-arrow {
-        fill: $color-5;
-    }
-    .green-arrow {
-        fill: $color-6;
-    }
-    .target {
-        fill: $border-color;
-    }
+    .cls-1 {
+        fill: #e30613;
+      }
+
+      .cls-2 {
+        fill: #009fe3;
+      }
+
+      .cls-3 {
+        fill: #fbba00;
+      }
+
+      .cls-4 {
+        fill: #009640;
+      }
+
+      .cls-5 {
+        fill: #dadada;
+      }
 }
 
 // Button Badge 

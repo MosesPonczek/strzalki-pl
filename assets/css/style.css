@@ -410,24 +410,21 @@ a {
   font-size: 18px;
   font-size: 1.8rem; }
 
-.strzalki-logo .red-elipse,
-.strzalki-logo-mini .red-elipse {
-  fill: #E30613; }
-.strzalki-logo .red-arrow,
-.strzalki-logo-mini .red-arrow {
-  fill: #E30613; }
-.strzalki-logo .blue-arrow,
-.strzalki-logo-mini .blue-arrow {
-  fill: #009FE3; }
-.strzalki-logo .gold-arrow,
-.strzalki-logo-mini .gold-arrow {
-  fill: #FBBA00; }
-.strzalki-logo .green-arrow,
-.strzalki-logo-mini .green-arrow {
+.strzalki-logo .cls-1,
+.strzalki-logo-mini .cls-1 {
+  fill: #e30613; }
+.strzalki-logo .cls-2,
+.strzalki-logo-mini .cls-2 {
+  fill: #009fe3; }
+.strzalki-logo .cls-3,
+.strzalki-logo-mini .cls-3 {
+  fill: #fbba00; }
+.strzalki-logo .cls-4,
+.strzalki-logo-mini .cls-4 {
   fill: #009640; }
-.strzalki-logo .target,
-.strzalki-logo-mini .target {
-  fill: #DADADA; }
+.strzalki-logo .cls-5,
+.strzalki-logo-mini .cls-5 {
+  fill: #dadada; }
 
 .button-badge .cls-1 {
   fill: #fbba00; }
