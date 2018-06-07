@@ -410,23 +410,23 @@ a {
   font-size: 18px;
   font-size: 1.8rem; }
 
-#strzalki-logo #red-elipse,
-#strzalki-logo-mini #red-elipse {
+.strzalki-logo .red-elipse,
+.strzalki-logo-mini .red-elipse {
   fill: #E30613; }
-#strzalki-logo #red-arrow,
-#strzalki-logo-mini #red-arrow {
+.strzalki-logo .red-arrow,
+.strzalki-logo-mini .red-arrow {
   fill: #E30613; }
-#strzalki-logo #blue-arrow,
-#strzalki-logo-mini #blue-arrow {
+.strzalki-logo .blue-arrow,
+.strzalki-logo-mini .blue-arrow {
   fill: #009FE3; }
-#strzalki-logo #gold-arrow,
-#strzalki-logo-mini #gold-arrow {
+.strzalki-logo .gold-arrow,
+.strzalki-logo-mini .gold-arrow {
   fill: #FBBA00; }
-#strzalki-logo #green-arrow,
-#strzalki-logo-mini #green-arrow {
+.strzalki-logo .green-arrow,
+.strzalki-logo-mini .green-arrow {
   fill: #009640; }
-#strzalki-logo #target,
-#strzalki-logo-mini #target {
+.strzalki-logo .target,
+.strzalki-logo-mini .target {
   fill: #DADADA; }
 
 .button-badge .cls-1 {
@@ -436,79 +436,79 @@ a {
 .button-badge .cls-3 {
   fill: #fff; }
 
-#brain .cls-1 {
+.brain .cls-1 {
   fill: #ff8d8d; }
-#brain .cls-2 {
+.brain .cls-2 {
   fill: #fd4a4a; }
-#brain .cls-3 {
+.brain .cls-3 {
   fill: #009640; }
 
-#social-care .cls-1 {
+.social-care .cls-1 {
   fill: #ffcdac; }
-#social-care .cls-2 {
+.social-care .cls-2 {
   fill: #7d9bff; }
-#social-care .cls-3 {
+.social-care .cls-3 {
   fill: #78d2fa; }
-#social-care .cls-4 {
+.social-care .cls-4 {
   fill: #ffb487; }
-#social-care .cls-5 {
+.social-care .cls-5 {
   fill: #bebebe; }
-#social-care .cls-6 {
+.social-care .cls-6 {
   fill: #f5b955; }
 
-#star .cls-1 {
+.star .cls-1 {
   fill: #ff4b4e; }
-#star .cls-2 {
+.star .cls-2 {
   fill: #ffca54; }
-#star .cls-3 {
+.star .cls-3 {
   fill: #00cdb3; }
-#star .cls-4 {
+.star .cls-4 {
   fill: #57bae5; }
-#star .cls-5 {
+.star .cls-5 {
   fill: #f99830; }
-#star .cls-6 {
+.star .cls-6 {
   fill: #231f20; }
 
-#card-green .cls-1 {
+.card-green .cls-1 {
   fill: #fff;
   stroke: #dadada; }
-#card-green .cls-2 {
+.card-green .cls-2 {
   fill: #009640; }
 
-#card-red .cls-1 {
+.card-red .cls-1 {
   fill: #fff;
   stroke: #dadada; }
-#card-red .cls-2 {
+.card-red .cls-2 {
   fill: #e30613; }
 
-#card-gold .cls-1 {
+.card-gold .cls-1 {
   fill: #fff;
   stroke: #dadada; }
-#card-gold .cls-2 {
+.card-gold .cls-2 {
   fill: #f9b233; }
 
-#card-blue .cls-1 {
+.card-blue .cls-1 {
   fill: #fff;
   stroke: #dadada; }
-#card-blue .cls-2 {
+.card-blue .cls-2 {
   fill: #009fe3; }
 
-#mail-icon .cls-1 {
+.mail-icon .cls-1 {
   fill: #009640; }
 
-#facebook-icon .cls-1 {
+.facebook-icon .cls-1 {
   fill: #3b5998; }
-#facebook-icon .cls-2 {
+.facebook-icon .cls-2 {
   fill: #fff; }
 
-#stars .cls-1 {
+.stars .cls-1 {
   fill: #fbba00;
   width: 24px; }
 
-#decoration-shape-1,
-#decoration-shape-2,
-#decoration-shape-3,
-#decoration-shape-4 {
+.decoration-shape-1,
+.decoration-shape-2,
+.decoration-shape-3,
+.decoration-shape-4 {
   fill: #DADADA; }
 
 /*# sourceMappingURL=style.css.map */
