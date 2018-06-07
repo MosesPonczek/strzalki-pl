@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 22.825">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbba00;
+      }
+    </style>
+  </defs>
+  <g id="stars" transform="translate(-95 -1234)">
+    <path id="star-1" class="cls-1" d="M12,10.441l3.708,7.514L24,19.159l-6,5.849,1.416,8.258L12,29.367l-7.416,3.9L6,25.008,0,19.159l8.292-1.2Z" transform="translate(95 1223.559)"/>
+    <path id="star-2" class="cls-1" d="M12,10.441l3.708,7.514L24,19.159l-6,5.849,1.416,8.258L12,29.367l-7.416,3.9L6,25.008,0,19.159l8.292-1.2Z" transform="translate(131 1223.559)"/>
+    <path id="star-3" class="cls-1" d="M12,10.441l3.708,7.514L24,19.159l-6,5.849,1.416,8.258L12,29.367l-7.416,3.9L6,25.008,0,19.159l8.292-1.2Z" transform="translate(167 1223.559)"/>
+    <path id="star-4" class="cls-1" d="M12,10.441l3.708,7.514L24,19.159l-6,5.849,1.416,8.258L12,29.367l-7.416,3.9L6,25.008,0,19.159l8.292-1.2Z" transform="translate(203 1223.559)"/>
+    <path id="star-5" class="cls-1" d="M12,10.441l3.708,7.514L24,19.159l-6,5.849,1.416,8.258L12,29.367l-7.416,3.9L6,25.008,0,19.159l8.292-1.2Z" transform="translate(239 1223.559)"/>
+  </g>
+</svg>

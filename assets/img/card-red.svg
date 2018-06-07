@@ -3,9 +3,6 @@
     <style>
       .cls-1 {
         fill: #fff;
-      }
-
-      .cls-1, .cls-2 {
         stroke: #dadada;
       }
 

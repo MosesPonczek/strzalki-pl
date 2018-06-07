@@ -1,0 +1,169 @@
+// Strzalki logo
+#strzalki-logo,
+#strzalki-logo-mini {
+    #red-elipse {
+        fill: $color-3;
+    }
+    #red-arrow {
+        fill: $color-3;
+    }
+    #blue-arrow {
+        fill: $color-4;
+    }
+    #gold-arrow {
+        fill: $color-5;
+    }
+    #green-arrow {
+        fill: $color-6;
+    }
+    #target {
+        fill: $border-color;
+    }
+}
+
+// Button Badge 
+.button-badge {
+    .cls-1 {
+        fill: #fbba00;
+    }
+    .cls-2 {
+        fill: rgba(0, 0, 0, 0.15);
+    }
+    .cls-3 {
+        fill: #fff;
+    }
+}
+
+// Brain
+#brain {
+    .cls-1 {
+        fill: #ff8d8d;
+    }
+    .cls-2 {
+        fill: #fd4a4a;
+    }
+    .cls-3 {
+        fill: #009640;
+    }
+}
+
+// Social Care
+#social-care {
+    .cls-1 {
+        fill: #ffcdac;
+    }
+    .cls-2 {
+        fill: #7d9bff;
+    }
+    .cls-3 {
+        fill: #78d2fa;
+    }
+    .cls-4 {
+        fill: #ffb487;
+    }
+    .cls-5 {
+        fill: #bebebe;
+    }
+    .cls-6 {
+        fill: #f5b955;
+    }
+}
+
+// Star
+#star {
+    .cls-1 {
+        fill: #ff4b4e;
+    }
+    .cls-2 {
+        fill: #ffca54;
+    }
+    .cls-3 {
+        fill: #00cdb3;
+    }
+    .cls-4 {
+        fill: #57bae5;
+    }
+    .cls-5 {
+        fill: #f99830;
+    }
+    .cls-6 {
+        fill: #231f20;
+    }
+}
+
+// Card Green
+#card-green {
+    .cls-1 {
+        fill: #fff;
+        stroke: #dadada;
+    }
+    .cls-2 {
+        fill: #009640;
+    }
+}
+
+// Card Red
+#card-red {
+    .cls-1 {
+        fill: #fff;
+        stroke: #dadada;
+    }
+    .cls-2 {
+        fill: #e30613;
+    }
+}
+
+// Card Gold
+#card-gold {
+    .cls-1 {
+        fill: #fff;
+        stroke: #dadada;
+    }
+    .cls-2 {
+        fill: #f9b233;
+    }
+}
+
+// Card Blue
+#card-blue {
+    .cls-1 {
+        fill: #fff;
+        stroke: #dadada;
+    }
+    .cls-2 {
+        fill: #009fe3;
+    }
+}
+
+// Email Icon 
+#mail-icon {
+    .cls-1 {
+        fill: #009640;
+    }
+}
+
+// Facebook Icon
+#facebook-icon {
+    .cls-1 {
+        fill: #3b5998;
+    }
+    .cls-2 {
+        fill: #fff;
+    }
+}
+
+// Stars
+#stars {
+    .cls-1 {
+        fill: #fbba00;
+        width: 24px;
+      }
+}
+
+// Decorative Shapes 
+#decoration-shape-1,
+#decoration-shape-2,
+#decoration-shape-3, 
+#decoration-shape-4 {
+    fill: $border-color;
+}
