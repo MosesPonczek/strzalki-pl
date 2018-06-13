@@ -1,5 +1,4 @@
 // Hero
-
 .hero {
     height: 100vh;
     & .content-wrapper {
@@ -26,7 +25,6 @@
 }
 
 // Features
-
 .features {
     display: flex;
     justify-content: space-between;
@@ -47,7 +45,6 @@
 }
 
 // S1
-
 .main-content {
     padding-top: 200px;
 }
@@ -83,7 +80,6 @@
 }
 
 // S2
-
 .s-2 {
     margin-top: 200px;
     text-align: center;
@@ -118,7 +114,6 @@
 }
 
 // S3
-
 .s-3 {
     margin-top: 200px;
     &__title {
@@ -149,13 +144,69 @@
                 margin-right: 18px;
             }
         }
-        &--description {
+    }
+}
+
+.owl-carousel {
+    .owl-nav {
+        .owl-prev, button[type="button"].owl-prev {
+            display: block;
+            width: 48px;
+            height: auto;
+            background-image: url(../img/arrow-left.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: transparent;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: transparent;
+            }
+
+        }
+        .owl-next, button[type="button"].owl-next {
+            display: block;
+            width: 48px;
+            height: auto;
+            background-image: url(../img/arrow-right.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: transparent;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: transparent;
+            }
         }
     }
 }
 
-// CTA
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 12px;
+    height: 12px;
+    background-color: $border-color;
+    transition: 150ms ease;
+} 
 
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 17px;
+    height: 17px;
+    background-color: $color-6;
+    margin-bottom: 2px;
+    border-radius: 999px;
+}
+
+// CTA
 .cta {
     position: relative;
     margin-top: 200px;

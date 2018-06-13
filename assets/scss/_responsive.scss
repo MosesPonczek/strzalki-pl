@@ -1,0 +1,249 @@
+@media screen and (max-width: 1600px) {
+    .decoration-shape-1,
+    .decoration-shape-2,
+    .decoration-shape-3,
+    .decoration-shape-4 {
+        opacity: 0.35;
+    }
+    .s-1 {
+        &-image {
+            flex-wrap: wrap;
+            max-width: 525px;
+            .card {
+                margin: 15px 30px;
+            }
+            .card-green {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .s-1 {
+        &-text {
+            padding-right: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .branding {
+        margin-bottom: 30px;
+        font-size: 72px;
+        font-size: 7.2rem;
+        svg {
+            transform: none;
+            width: 150px;
+            height: auto;
+            margin-bottom: -90px;
+        }
+        span {
+            padding-left: 170px;
+            font-size: 48px;
+            font-size: 4.8rem;
+        }
+    }
+    .hero {
+        height: auto;
+        &-text {
+            width: 100%;
+        }
+        &-image {
+            display: none;
+        }
+    }
+    .features {
+        margin: 100px 0;
+    }
+    .s-1 {
+        &-image {
+            .card {
+                margin: 10px;
+            }
+        }
+    }
+    .opinions {
+        &__item {
+            padding: 0 150px;
+            &::before {
+                z-index: -1;
+                width: 300px;
+                top: 0;
+                left: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .features {
+        padding: 0;
+    }
+    .s-1 {
+        &-wrapper {
+            flex-wrap: wrap;
+        }
+        &-image {
+            width: 100%;
+            max-width: 100%;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            padding: 0 30px;
+            margin: 30px 0;
+        }
+        &-text {
+            width: 100%;
+            padding-left: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .branding {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 30px;
+        svg {
+            margin-bottom: auto;
+        }
+        span {
+            padding: 0;
+        }
+    }
+    .hero {
+        text-align: center;
+        &-text {
+            padding-right: 0;
+            &__title {
+                font-size: 64px;
+                font-size: 6.4rem;
+            }
+            &__description {
+                margin-bottom: 64px;
+            }
+            &__button {
+                margin: 36px auto;
+            }
+        }
+    }
+    .features {
+        margin: 100px 0;
+        flex-direction: column;
+        &__item {
+            margin: 0;
+            &:nth-child(2) {
+                margin: 30px 0;
+            }
+        }
+    }
+    .s-1 {
+        &-text {
+            text-align: center;
+        }
+    }
+    .opinions {
+        text-align: center;
+        &__item {
+            padding: 0;
+            &--header {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .decoration-shape-1,
+    .decoration-shape-2,
+    .decoration-shape-3 {
+        display: none;
+    }
+    .hero {
+        &-text {
+            &__title {
+                font-size: 48px;
+                font-size: 4.8rem;
+            }
+        }
+    }
+    .main-content {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .branding {
+        font-size: 48px;
+        font-size: 4.8rem;
+        span {
+            font-size: 24px;
+            font-size: 2.4rem;
+        }
+        svg {
+            width: 100px;
+        }
+    }
+
+    .hero {
+        &-text {
+            &__title {
+                font-size: 36px;
+                font-size: 3.6rem;
+            }
+        }
+    }
+
+    .features {
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            svg {
+                width: 160px;
+                height: auto;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .s-1 {
+        &-image {
+            display: none;
+        }
+    }
+
+    .contact-informations {
+        &__item {
+            margin: 10px 0;
+            svg {
+                display: none;
+            }
+            &--text {
+                font-size: 18px;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .hero {
+        height: auto;
+        &-image {
+            text-align: center;
+        }
+    }
+    .features {
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+}

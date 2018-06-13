@@ -18,3 +18,13 @@
         position: absolute;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .page-button {
+        height: 75px;
+        padding: 0 60px;
+        svg {
+            display: none;
+        }
+    }
+}

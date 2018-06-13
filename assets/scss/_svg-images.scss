@@ -169,6 +169,8 @@
 .decoration-shape-3, 
 .decoration-shape-4 {
     fill: $border-color;
+    position: relative;
+    z-index: -1;
 }
 
 .decoration-shape-1 {
