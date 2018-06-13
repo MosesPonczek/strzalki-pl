@@ -454,10 +454,13 @@ a {
     -webkit-transition: 150ms ease;
     transition: 150ms ease; }
   .page-button:hover {
-    background-color: #FBBA00;
-    color: black; }
+    background-color: #00b04b;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25); }
     .page-button:hover svg .cls-1 {
-      fill: #009640; }
+      fill: #ffc92f; }
 
 @media screen and (max-width: 580px) {
   .page-button {
@@ -801,6 +804,9 @@ a {
     margin: 0 auto;
     -webkit-transform: translateY(55px);
             transform: translateY(55px); }
+    .cta__button:hover {
+      -webkit-transform: translateY(45px);
+              transform: translateY(45px); }
 
 @media screen and (max-width: 1600px) {
   .decoration-shape-1,
@@ -1218,7 +1224,10 @@ a {
     transition: 150ms ease;
     margin-top: 18px; }
     .newsletter-form__button:hover {
-      background-color: #FBBA00;
-      color: black; }
+      background-color: #00b04b;
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+      -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+              box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25); }
 
 /*# sourceMappingURL=style.css.map */

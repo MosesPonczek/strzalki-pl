@@ -219,5 +219,8 @@
     &__button {
         margin: 0 auto;
         transform: translateY(55px);
+        &:hover {
+            transform: translateY(45px);
+        }
     }
 }
