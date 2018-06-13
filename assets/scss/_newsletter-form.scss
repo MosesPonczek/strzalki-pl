@@ -1,4 +1,5 @@
 .newsletter-form-wrapper {
+    display: none;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -88,6 +89,7 @@
         font-weight: bold;
         cursor: pointer;
         transition: 150ms ease;
+        margin-top: 18px;
         &:hover {
             background-color: $color-5;
             color: black;

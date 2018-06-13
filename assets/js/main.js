@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // OPINIONS CAROUSEL
 
 $('.owl-carousel').owlCarousel({
@@ -15,3 +17,29 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+// Newsletter Form
+
+function modalNewsletter() {
+    const newsletterWrapper = $('.newsletter-form-wrapper');
+    const newsletterContainer = $('.newsletter-form');
+    const newsletterCloseBtn = $('.newsletter-form__close-button');
+    const triggerButton = $('.page-button');
+
+    newsletterWrapper.hide();
+    newsletterContainer.hide();
+
+    triggerButton.on('click', function(){
+        newsletterWrapper.fadeIn();
+        newsletterContainer.slideDown();
+    });
+    newsletterCloseBtn.on('click', function(){
+        newsletterWrapper.fadeOut();
+        newsletterContainer.slideUp();
+    });
+}
+
+modalNewsletter();
+
+});
+

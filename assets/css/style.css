@@ -1115,6 +1115,7 @@ a {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 .newsletter-form-wrapper {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -1214,7 +1215,8 @@ a {
     font-weight: bold;
     cursor: pointer;
     -webkit-transition: 150ms ease;
-    transition: 150ms ease; }
+    transition: 150ms ease;
+    margin-top: 18px; }
     .newsletter-form__button:hover {
       background-color: #FBBA00;
       color: black; }
