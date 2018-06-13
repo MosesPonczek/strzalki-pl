@@ -1,0 +1,174 @@
+// Hero
+
+.hero {
+    height: 100vh;
+    & .content-wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    &-text {
+        width: 50%;
+        padding-right: 30px;
+        &__title {
+            font-size: 48px;
+            font-size: 4.8rem;
+        }
+        &__button {
+            margin-top: 36px;
+        }
+    }
+    &-image {
+        width: 50%;
+        text-align: right;
+    }
+}
+
+// Features
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 60px;
+    &__item {
+        display: flex;
+        align-items: center;
+        &--icon {
+            margin-right: 24px;
+        }
+        &--title {
+            font-size: 18px;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+// S1
+
+.main-content {
+    padding-top: 200px;
+}
+
+.s-1 {
+    position: relative;
+    .decoration-shape-2 {
+        position: absolute;
+        top: -380px;
+    }
+    .decoration-shape-3 {
+        position: absolute;
+        bottom: -380px;
+    }
+    &-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &-text {
+        width: 635px;
+        max-width: 100%;
+        padding-left: 60px;
+    }
+    &-image {
+        display: flex;
+        .card {
+            margin-right: 18px;
+        }
+        .card-green {
+            margin-left: 48px;
+        }
+    }
+}
+
+// S2
+
+.s-2 {
+    margin-top: 200px;
+    text-align: center;
+    &__description {
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 48px;
+        line-height: 4.8rem;
+    }
+}
+
+.contact-informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    &__item {
+        display: flex;
+        align-items: center;
+        margin: 25px;
+        &--icon {
+            margin-right: 20px;
+        }
+        &--text {
+            font-size: 24px;
+            font-size: 2.4rem;
+            font-weight: bold;
+            text-decoration: underline;
+            color: $color-4;
+        }
+    }
+}
+
+// S3
+
+.s-3 {
+    margin-top: 200px;
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.opinions {
+    &__item {
+        padding-left: 400px;
+        padding-right: 200px;
+        margin: 0;
+        position: relative;
+        &::before {
+            display: block;
+            content: url('../img/quotes.svg');
+            position: absolute;
+            width: 170px;
+            height: auto;
+            top: 70px;
+            left: 180px;
+        }
+        &--header {
+            display: flex;
+            align-items: center;
+            &--title {
+                margin-right: 18px;
+            }
+        }
+        &--description {
+        }
+    }
+}
+
+// CTA
+
+.cta {
+    position: relative;
+    margin-top: 200px;
+    height: 245px;
+    overflow: hidden;
+    .decoration-shape-4 {
+        position: absolute;
+        left: 50%;
+        bottom: -200px;
+        transform: translateX(-50%);
+    }
+    &__button {
+        margin: 0 auto;
+        transform: translateY(55px);
+    }
+}

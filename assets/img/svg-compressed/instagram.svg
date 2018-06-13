@@ -1,0 +1,20 @@
+<svg version="1" viewBox="0 0 512 512">
+  <linearGradient id="a" x1="-46" x2="-33" y1="634" y2="647" gradientTransform="matrix(32 0 0 -32 1519 20757)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ffc107"/>
+    <stop offset="1" stop-color="#f44336"/>
+    <stop offset="1" stop-color="#9c27b0"/>
+  </linearGradient>
+  <path fill="url(#a)" d="M352 0H160C72 0 0 72 0 160v192c0 88 72 160 160 160h192c88 0 160-72 160-160V160C512 72 440 0 352 0zm112 352c0 62-50 112-112 112H160c-62 0-112-50-112-112V160C48 98 98 48 160 48h192c62 0 112 50 112 112v192z"/>
+  <linearGradient id="b" x1="-42" x2="-37" y1="638" y2="643" gradientTransform="matrix(32 0 0 -32 1519 20757)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ffc107"/>
+    <stop offset="1" stop-color="#f44336"/>
+    <stop offset="1" stop-color="#9c27b0"/>
+  </linearGradient>
+  <path fill="url(#b)" d="M256 128a128 128 0 1 0 0 256 128 128 0 0 0 0-256zm0 208a80 80 0 1 1 0-160 80 80 0 0 1 0 160z"/>
+  <linearGradient id="c" x1="-36" x2="-35" y1="645" y2="645" gradientTransform="matrix(32 0 0 -32 1519 20757)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ffc107"/>
+    <stop offset="1" stop-color="#f44336"/>
+    <stop offset="1" stop-color="#9c27b0"/>
+  </linearGradient>
+  <circle cx="394" cy="118" r="17" fill="url(#c)"/>
+</svg>

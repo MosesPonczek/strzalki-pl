@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    font-family: 'Hind', serif;
+    font-family: 'ff-cocon-pro', sans-serif;
     line-height: 1.6;
 }
 
@@ -60,7 +60,8 @@ body {
 }
 
 .sr-only,
-.screen-reader-only {
+.screen-reader-only,
+.screen-reader-text {
     position: absolute;
     width: 1px;
     height: 1px;

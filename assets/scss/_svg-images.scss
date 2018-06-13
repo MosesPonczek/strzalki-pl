@@ -1,6 +1,5 @@
 // Strzalki logo
-.strzalki-logo,
-.strzalki-logo-mini {
+.strzalki-logo {
     .cls-1 {
         fill: #e30613;
       }
@@ -24,6 +23,9 @@
 
 // Button Badge 
 .button-badge {
+    position: absolute;
+    left: 30px;
+    width: 100px;
     .cls-1 {
         fill: #fbba00;
     }
@@ -167,4 +169,10 @@
 .decoration-shape-3, 
 .decoration-shape-4 {
     fill: $border-color;
+}
+
+.decoration-shape-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

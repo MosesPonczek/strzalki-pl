@@ -335,7 +335,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: 'Hind', serif;
+  font-family: 'ff-cocon-pro', sans-serif;
   line-height: 1.6; }
 
 .content-wrapper {
@@ -353,7 +353,8 @@ body {
       padding: 0 15px; } }
 
 .sr-only,
-.screen-reader-only {
+.screen-reader-only,
+.screen-reader-text {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -375,63 +376,101 @@ a {
 h1 {
   font-size: 48px;
   font-size: 4.8rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: black;
+  margin: 0; }
 
 h2 {
   font-size: 30px;
   font-size: 3rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: black;
+  margin: 0; }
 
 h3 {
   font-size: 24px;
   font-size: 2.4rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: black;
+  margin: 0; }
 
 h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: black;
+  margin: 0; }
 
 h5 {
   font-size: 18px;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  color: black;
+  margin: 0; }
 
 h6 {
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: black;
+  margin: 0; }
 
 p {
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 36px;
-  line-height: 3.6rem; }
+  line-height: 3.6rem;
+  color: #707070;
+  margin: 24px 0; }
 
 a {
   font-size: 18px;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  margin: 0; }
 
-.strzalki-logo .cls-1,
-.strzalki-logo-mini .cls-1 {
+.page-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55px;
+  padding-left: 115px;
+  padding-right: 50px;
+  background-color: #009640;
+  border: 0;
+  border-radius: 1000px;
+  color: white;
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); }
+  .page-button svg {
+    position: absolute; }
+
+.strzalki-logo .cls-1 {
   fill: #e30613; }
-.strzalki-logo .cls-2,
-.strzalki-logo-mini .cls-2 {
+.strzalki-logo .cls-2 {
   fill: #009fe3; }
-.strzalki-logo .cls-3,
-.strzalki-logo-mini .cls-3 {
+.strzalki-logo .cls-3 {
   fill: #fbba00; }
-.strzalki-logo .cls-4,
-.strzalki-logo-mini .cls-4 {
+.strzalki-logo .cls-4 {
   fill: #009640; }
-.strzalki-logo .cls-5,
-.strzalki-logo-mini .cls-5 {
+.strzalki-logo .cls-5 {
   fill: #dadada; }
 
-.button-badge .cls-1 {
-  fill: #fbba00; }
-.button-badge .cls-2 {
-  fill: rgba(0, 0, 0, 0.15); }
-.button-badge .cls-3 {
-  fill: #fff; }
+.button-badge {
+  position: absolute;
+  left: 30px;
+  width: 100px; }
+  .button-badge .cls-1 {
+    fill: #fbba00; }
+  .button-badge .cls-2 {
+    fill: rgba(0, 0, 0, 0.15); }
+  .button-badge .cls-3 {
+    fill: #fff; }
 
 .brain .cls-1 {
   fill: #ff8d8d; }
@@ -507,5 +546,191 @@ a {
 .decoration-shape-3,
 .decoration-shape-4 {
   fill: #DADADA; }
+
+.decoration-shape-1 {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.masthead {
+  width: 100%; }
+
+.branding {
+  font-size: 34px;
+  font-size: 3.4rem; }
+  .branding__slogan {
+    display: block;
+    font-weight: normal;
+    font-size: 22px;
+    font-size: 2.2rem;
+    padding-left: 70px;
+    margin-top: -12px;
+    opacity: 0.65; }
+  .branding svg {
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px); }
+
+.hero {
+  height: 100vh; }
+  .hero .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%; }
+  .hero-text {
+    width: 50%;
+    padding-right: 30px; }
+    .hero-text__title {
+      font-size: 48px;
+      font-size: 4.8rem; }
+    .hero-text__button {
+      margin-top: 36px; }
+  .hero-image {
+    width: 50%;
+    text-align: right; }
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0 60px; }
+  .features__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .features__item--icon {
+      margin-right: 24px; }
+    .features__item--title {
+      font-size: 18px;
+      font-size: 1.8rem; }
+
+.main-content {
+  padding-top: 200px; }
+
+.s-1 {
+  position: relative; }
+  .s-1 .decoration-shape-2 {
+    position: absolute;
+    top: -380px; }
+  .s-1 .decoration-shape-3 {
+    position: absolute;
+    bottom: -380px; }
+  .s-1-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .s-1-text {
+    width: 635px;
+    max-width: 100%;
+    padding-left: 60px; }
+  .s-1-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .s-1-image .card {
+      margin-right: 18px; }
+    .s-1-image .card-green {
+      margin-left: 48px; }
+
+.s-2 {
+  margin-top: 200px;
+  text-align: center; }
+  .s-2__description {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 48px;
+    line-height: 4.8rem; }
+
+.contact-informations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .contact-informations__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 25px; }
+    .contact-informations__item--icon {
+      margin-right: 20px; }
+    .contact-informations__item--text {
+      font-size: 24px;
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-decoration: underline;
+      color: #009FE3; }
+
+.s-3 {
+  margin-top: 200px; }
+  .s-3__title {
+    text-align: center;
+    margin-bottom: 50px; }
+
+.opinions__item {
+  padding-left: 400px;
+  padding-right: 200px;
+  margin: 0;
+  position: relative; }
+  .opinions__item::before {
+    display: block;
+    content: url("../img/quotes.svg");
+    position: absolute;
+    width: 170px;
+    height: auto;
+    top: 70px;
+    left: 180px; }
+  .opinions__item--header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .opinions__item--header--title {
+      margin-right: 18px; }
+
+.cta {
+  position: relative;
+  margin-top: 200px;
+  height: 245px;
+  overflow: hidden; }
+  .cta .decoration-shape-4 {
+    position: absolute;
+    left: 50%;
+    bottom: -200px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  .cta__button {
+    margin: 0 auto;
+    -webkit-transform: translateY(55px);
+            transform: translateY(55px); }
 
 /*# sourceMappingURL=style.css.map */

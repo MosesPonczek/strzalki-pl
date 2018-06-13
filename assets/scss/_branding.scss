@@ -1,0 +1,22 @@
+// Branding
+
+.masthead {
+    width: 100%;
+}
+
+.branding {
+  font-size: 34px;  
+  font-size: 3.4rem;
+  &__slogan {
+      display: block;
+      font-weight: normal;
+      font-size: 22px;
+      font-size: 2.2rem;
+      padding-left: 70px;
+      margin-top: -12px;
+      opacity: 0.65;
+  }
+  svg {
+    transform: translateY(32px);
+  }
+}
