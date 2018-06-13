@@ -1,0 +1,96 @@
+.newsletter-form-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba( $color-5, .9 );
+    z-index: 1;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 580px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    &__close-button {
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        background-color: transparent;
+        border: 0;
+        color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    &__title {
+        font-size: 24px;
+        font-size: 2.4rem;
+        margin-bottom: 48px;
+        strong {
+            font-size: 30px;
+            font-size: 3rem;
+        }
+    }
+    &__input {
+        height: 55px;
+        padding: 18px;
+        background-color: #E9E9E9;
+        font-size: 18px;
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        border: 0;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .accept-terms-fieldset {
+        border: 0;
+        text-align: left;
+        margin-bottom: 24px;
+        label {
+            font-size: 14px;
+            font-size: 1.4rem;
+            font-family: "Arial", sans-serif;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        input {
+            margin-right: 8px;
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 55px;
+        width: 265px;
+        max-width: 100%;
+        color: white;
+        background-color: $color-6;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        font-size: 18px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 150ms ease;
+        &:hover {
+            background-color: $color-5;
+            color: black;
+        }
+    }
+}
