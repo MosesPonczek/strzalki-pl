@@ -199,10 +199,8 @@
 } 
 
 .owl-theme .owl-dots .owl-dot.active span {
-    width: 17px;
-    height: 17px;
     background-color: $color-6;
-    margin-bottom: 2px;
+    transform: scale(1.35);
     border-radius: 999px;
 }
 

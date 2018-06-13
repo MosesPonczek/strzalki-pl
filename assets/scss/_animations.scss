@@ -1,0 +1,83 @@
+.branding {
+    animation: from-top 1s ease;
+}
+
+@keyframes from-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#hero-logo {
+    animation: scale 1s ease;
+}
+
+@keyframes scale {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.hero-text {
+    animation: from-left 1s ease;
+}
+
+@keyframes from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.decoration-shape-1,
+.decoration-shape-2,
+.decoration-shape-3,
+.decoration-shape-4 {
+    animation: show 1s ease;
+}
+
+.s-1-image,
+.s-1-text,
+.s-2,
+.s-3,
+.page-button {
+    animation: show 1s ease;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.features {
+    animation: from-bottom 1s ease;
+}
+
+@keyframes from-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

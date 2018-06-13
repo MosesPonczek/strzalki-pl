@@ -29,9 +29,6 @@
     .cls-1 {
         fill: #fbba00;
     }
-    .cls-2 {
-        fill: rgba(0, 0, 0, 0.15);
-    }
     .cls-3 {
         fill: #fff;
     }
@@ -94,11 +91,19 @@
     }
 }
 
+// Cards
+.card {
+    border: 1px solid $border-color;
+    border-radius: 15px;
+}
+
 // Card Green
 .card-green {
-    .cls-1 {
+    .cls-0 {
         fill: #fff;
-        stroke: #dadada;
+    }
+    .cls-1 {
+        fill: #EDEDED;
     }
     .cls-2 {
         fill: #009640;
@@ -107,9 +112,11 @@
 
 // Card Red
 .card-red {
-    .cls-1 {
+    .cls-0 {
         fill: #fff;
-        stroke: #dadada;
+    }
+    .cls-1 {
+        fill: #EDEDED;
     }
     .cls-2 {
         fill: #e30613;
@@ -118,9 +125,11 @@
 
 // Card Gold
 .card-gold {
-    .cls-1 {
+    .cls-0 {
         fill: #fff;
-        stroke: #dadada;
+    }
+    .cls-1 {
+        fill: #EDEDED;
     }
     .cls-2 {
         fill: #f9b233;
@@ -129,9 +138,11 @@
 
 // Card Blue
 .card-blue {
-    .cls-1 {
+    .cls-0 {
         fill: #fff;
-        stroke: #dadada;
+    }
+    .cls-1 {
+        fill: #EDEDED;
     }
     .cls-2 {
         fill: #009fe3;

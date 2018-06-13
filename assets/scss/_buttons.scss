@@ -14,8 +14,19 @@
     position: relative;
     cursor: pointer;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: 150ms ease;
     svg {
         position: absolute;
+        transition: 150ms ease;
+    }
+    &:hover {
+        background-color: $color-5;
+        color: $color-1;
+        svg {
+            .cls-1 {
+                fill: $color-6;
+            }
+        }
     }
 }
 
