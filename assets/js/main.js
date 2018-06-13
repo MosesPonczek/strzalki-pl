@@ -1,7 +1,7 @@
 // OPINIONS CAROUSEL
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     nav:true,
     responsive:{
         0:{
