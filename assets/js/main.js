@@ -43,40 +43,28 @@ $(document).ready(function () {
             }, 2000);
         });
     }
-    // Jeśli przeglądarka ma szerokość wiekszą lub równą 581px to:
-    if ($(window).width() >= 581) {
-        console.log('Więcej niż 580px! Width.');
-        modalNewsletter();
-    }
-    // Jeśli przeglądarka ma szerokość mniejszą lub równą 580px to:
-    if ($(window).width() <= 580) {
-        console.log('Mniej lub równe 580px! Width.');
+    // Jeśli przeglądarka ma szerokość mniejszą lub równą 580px lub mniejsza lub równa wysokości 515px to:
+    if ($(window).width() <= 580 || $(window).height() <= 515) {
+
         mobileNewsletter();
-    }
-    // Jeśli przeglądarka ma wysokość wiekszą lub równą 515px to:
-    if ($(window).height() >= 515) {
-        console.log('Więcej niż 515px! Height.');
+    } else {
+
         modalNewsletter();
-    }
-    // Jeśli przeglądarka ma wysokość mniejszą lub równą 515px to:
-    if ($(window).height() <= 515) {
-        console.log('Mniej lub równe 515px! Height.');
-        mobileNewsletter();
     }
 
-        // Zmiana title po opusczeniu karty
-        var message = "Zagraj w Strzałki!";
-        var original;
-      
-        $(window).focus(function() {
-          if (original) {
+    // Zmiana title po opusczeniu karty
+    var message = "Zagraj w Strzałki!";
+    var original;
+
+    $(window).focus(function () {
+        if (original) {
             document.title = original;
-          }
-        }).blur(function() {
-          var title = $('title').text();
-          if (title != message) {
+        }
+    }).blur(function () {
+        var title = $('title').text();
+        if (title != message) {
             original = title;
-          }
-          document.title = message;
-        });
+        }
+        document.title = message;
+    });
 });
