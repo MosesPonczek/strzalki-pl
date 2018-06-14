@@ -63,4 +63,20 @@ $(document).ready(function () {
         console.log('Mniej lub równe 515px! Height.');
         mobileNewsletter();
     }
+
+        // Zmiana title po opusczeniu karty
+        var message = "Zagraj w Strzałki!";
+        var original;
+      
+        $(window).focus(function() {
+          if (original) {
+            document.title = original;
+          }
+        }).blur(function() {
+          var title = $('title').text();
+          if (title != message) {
+            original = title;
+          }
+          document.title = message;
+        });
 });
