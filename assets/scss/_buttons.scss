@@ -15,6 +15,7 @@
     cursor: pointer;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     transition: 150ms ease;
+    max-width: 100%;
     svg {
         position: absolute;
         transition: 150ms ease;
@@ -38,5 +39,12 @@
         svg {
             display: none;
         }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-button {
+        height: 75px;
+        padding: 0 30px;
     }
 }

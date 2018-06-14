@@ -448,7 +448,8 @@ a {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
           box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   -webkit-transition: 150ms ease;
-  transition: 150ms ease; }
+  transition: 150ms ease;
+  max-width: 100%; }
   .page-button svg {
     position: absolute;
     -webkit-transition: 150ms ease;
@@ -468,6 +469,10 @@ a {
     padding: 0 60px; }
     .page-button svg {
       display: none; } }
+@media screen and (max-width: 400px) {
+  .page-button {
+    height: 75px;
+    padding: 0 30px; } }
 .strzalki-logo .cls-1 {
   fill: #e30613; }
 .strzalki-logo .cls-2 {
@@ -1184,6 +1189,7 @@ a {
     border-radius: 5px;
     border: 0;
     width: 100%;
+    max-width: 100%;
     margin-bottom: 18px; }
   .newsletter-form .accept-terms-fieldset {
     border: 0;
@@ -1229,5 +1235,46 @@ a {
               transform: translateY(-10px);
       -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
               box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25); }
+
+@media screen and (max-width: 580px) {
+  .newsletter-form-wrapper {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+    background-color: white;
+    height: auto;
+    width: auto; }
+
+  .newsletter-form {
+    position: relative;
+    left: auto;
+    top: auto;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+    border-radius: 0; }
+    .newsletter-form__close-button {
+      display: none; } }
+@media screen and (max-height: 515px) {
+  .newsletter-form-wrapper {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+    background-color: white;
+    height: auto;
+    width: auto; }
+
+  .newsletter-form {
+    position: relative;
+    left: auto;
+    top: auto;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+    border-radius: 0; }
+    .newsletter-form__input {
+      width: 500px; }
+    .newsletter-form__close-button {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
